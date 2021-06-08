@@ -22,6 +22,5 @@ class SportSeeder extends Seeder
 
         $sport->save();
       }
-
     }
 }
