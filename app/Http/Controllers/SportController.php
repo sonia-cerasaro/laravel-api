@@ -21,17 +21,14 @@ class SportController extends Controller
         'success' => true,
       ]);
     }
-
+    
     public function store(Request $request)
     {
       $data = $request->all();
-
-      //tutte le operazioni di store;
 
       return response()->json([
         'message' => 'Sport saved correctly',
         'success' => true,
       ]);
     }
-
 }
